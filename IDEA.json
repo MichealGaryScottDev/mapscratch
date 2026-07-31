@@ -1,0 +1,36 @@
+{
+  "slug": "mapscratch",
+  "title": "MapScratch",
+  "tagline": "Collaborative map markup for outdoor crews",
+  "description": "MapScratch is a collaborative map annotation tool for outdoor enthusiasts. Drop pins, draw routes, and attach notes and photos to satellite maps, then share a link for friends to add their own marks and comments. Perfect for planning group hikes, fishing trips, or city explorations without the noise of social networks.",
+  "niche": "Outdoor enthusiasts, hiking groups, fishing buddies, and urban explorers who want a shared visual planning space.",
+  "pages": [
+    "/",
+    "/map",
+    "/share/[id]"
+  ],
+  "visualCraft": "workbench",
+  "visualDirection": "Dark, utilitarian workbench with a focused map canvas, side panels for lists and details, and a bold icon beat using a map-pin glyph on the hero.",
+  "colorPalette": {
+    "bg": "#0f172a",
+    "fg": "#e2e8f0",
+    "accent": "#94a3b8",
+    "muted": "#64748b"
+  },
+  "fontPairing": {
+    "display": "Inter",
+    "body": "Inter"
+  },
+  "features": [
+    "Drop pins on an interactive Mapbox map with custom notes and optional photo URLs.",
+    "Draw freehand routes and polylines directly on the map.",
+    "Comment on any pin or route to update trail conditions or share ideas.",
+    "Share a unique link (via URL hash) to let friends open the same map and add their own marks.",
+    "Persist all data locally in the browser using localStorage, with demo data preloaded."
+  ],
+  "scopeNotes": "No authentication, no backend, no payments. Map data and annotations stored in localStorage only. Mapbox used solely for the base map and drawing interactions. Share links encode a room ID in the hash but are only functional on the same browser (demo-friendly).",
+  "usesAi": false,
+  "libraries": [
+    "mapbox"
+  ]
+}

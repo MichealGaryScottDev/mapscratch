@@ -1,0 +1,45 @@
+.text-reveal {
+  overflow: hidden;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.text-reveal--line {
+  overflow: visible;
+}
+
+.text-reveal__unit {
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: top;
+}
+
+.text-reveal--line .text-reveal__unit {
+  display: block;
+}
+
+.text-reveal__space {
+  white-space: pre;
+}
+
+.text-reveal__inner {
+  display: block;
+  transform: translateY(110%);
+  opacity: 0;
+}
+
+.text-reveal__inner--visible {
+  animation: text-reveal-up var(--reveal-duration, 0.7s)
+    cubic-bezier(0.22, 1, 0.36, 1) var(--reveal-delay, 0s) forwards;
+}
+
+@keyframes text-reveal-up {
+  from {
+    transform: translateY(110%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

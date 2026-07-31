@@ -1,0 +1,81 @@
+.lib-card {
+  --lib-card-radius: 8px;
+  --lib-card-padding: 14px;
+  --lib-card-gap: 12px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--lib-card-gap);
+  padding: var(--lib-card-padding);
+  border-radius: var(--lib-card-radius);
+  background: #1e1e1e;
+  border: 1px solid #2b2b2b;
+  color: #e4e4e4;
+  box-shadow: none;
+}
+
+.lib-card__header {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.lib-card__title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 560;
+  letter-spacing: -0.02em;
+  color: #e4e4e4;
+}
+
+.lib-card__description {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #8a8a8a;
+}
+
+.lib-card__content {
+  font-size: 12px;
+  line-height: 1.55;
+  color: #8a8a8a;
+}
+
+.lib-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 2px;
+  padding-top: 8px;
+  border-top: 1px solid #2b2b2b;
+}
+
+.lib-card__footer .lib-card__action {
+  padding: 7px 12px;
+  border: 1px solid #2b2b2b;
+  border-radius: 6px;
+  background: #1a1a1a;
+  color: #8a8a8a;
+  font-family: var(--font-sans);
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.12s ease, color 0.12s ease;
+}
+
+.lib-card__footer .lib-card__action:hover {
+  background: #252525;
+  color: #e4e4e4;
+}
+
+.lib-card__footer .lib-card__action--primary {
+  background: #e4e4e4;
+  border-color: #e4e4e4;
+  color: #141414;
+}
+
+.lib-card__footer .lib-card__action--primary:hover {
+  background: #fff;
+  color: #141414;
+}

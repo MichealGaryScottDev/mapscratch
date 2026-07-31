@@ -1,0 +1,87 @@
+.lib-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 8px 14px;
+  border: 1px solid #2b2b2b;
+  border-radius: 6px;
+  background: #1e1e1e;
+  color: #e4e4e4;
+  font-family: var(--font-sans);
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: -0.01em;
+  transform: scale(1);
+  transition: background 0.12s ease, border-color 0.12s ease, color 0.12s ease;
+  touch-action: manipulation;
+  user-select: none;
+  cursor: pointer;
+}
+
+.lib-button:hover {
+  background: #252525;
+  border-color: #3a3a3a;
+  color: #fff;
+}
+
+.lib-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.lib-button--pressed:not(:disabled) {
+  background: #1a1a1a;
+}
+
+.lib-button--primary {
+  background: #e4e4e4;
+  border-color: #e4e4e4;
+  color: #141414;
+}
+
+.lib-button--primary:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #141414;
+}
+
+.lib-button--primary.lib-button--pressed:not(:disabled) {
+  background: #d0d0d0;
+}
+
+.lib-button--ghost {
+  background: transparent;
+  border-color: #2b2b2b;
+  color: #8a8a8a;
+}
+
+.lib-button--ghost:hover {
+  background: #1e1e1e;
+  color: #e4e4e4;
+}
+
+.lib-button svg {
+  display: block;
+  flex-shrink: 0;
+}
+
+.lib-button--sm {
+  padding: 6px 10px;
+  font-size: 12px;
+  gap: 6px;
+}
+
+.lib-button--lg {
+  padding: 12px 20px;
+  font-size: 15px;
+  gap: 10px;
+  border-radius: 999px;
+}
+
+.lib-button--icon {
+  padding: 8px;
+  width: 36px;
+  height: 36px;
+}

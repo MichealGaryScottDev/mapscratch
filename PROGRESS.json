@@ -1,0 +1,76 @@
+{
+  "slug": "mapscratch",
+  "stage": "built",
+  "idea": {
+    "slug": "mapscratch",
+    "title": "MapScratch",
+    "tagline": "Collaborative map markup for outdoor crews",
+    "description": "MapScratch is a collaborative map annotation tool for outdoor enthusiasts. Drop pins, draw routes, and attach notes and photos to satellite maps, then share a link for friends to add their own marks and comments. Perfect for planning group hikes, fishing trips, or city explorations without the noise of social networks.",
+    "niche": "Outdoor enthusiasts, hiking groups, fishing buddies, and urban explorers who want a shared visual planning space.",
+    "pages": [
+      "/",
+      "/map",
+      "/share/[id]"
+    ],
+    "visualCraft": "workbench",
+    "visualDirection": "Dark, utilitarian workbench with a focused map canvas, side panels for lists and details, and a bold icon beat using a map-pin glyph on the hero.",
+    "colorPalette": {
+      "bg": "#0f172a",
+      "fg": "#e2e8f0",
+      "accent": "#94a3b8",
+      "muted": "#64748b"
+    },
+    "fontPairing": {
+      "display": "Inter",
+      "body": "Inter"
+    },
+    "features": [
+      "Drop pins on an interactive Mapbox map with custom notes and optional photo URLs.",
+      "Draw freehand routes and polylines directly on the map.",
+      "Comment on any pin or route to update trail conditions or share ideas.",
+      "Share a unique link (via URL hash) to let friends open the same map and add their own marks.",
+      "Persist all data locally in the browser using localStorage, with demo data preloaded."
+    ],
+    "scopeNotes": "No authentication, no backend, no payments. Map data and annotations stored in localStorage only. Mapbox used solely for the base map and drawing interactions. Share links encode a room ID in the hash but are only functional on the same browser (demo-friendly).",
+    "usesAi": false,
+    "libraries": [
+      "mapbox"
+    ]
+  },
+  "customBrief": "MapScratch is a web app where outdoor enthusiasts can collaboratively mark up satellite maps with pins, routes, and annotations for secret spots, trail conditions, or planned adventures. Users drop pins on a Mapbox map, attach photos and notes, and share a link for friends to comment and add their own marks. It's perfect for planning group hikes, fishing trips, or city explorations without the noise of social networks.",
+  "submitToOrynth": true,
+  "siteDir": "C:\\Users\\noahw\\Downloads\\CodingProjects\\OrynthAutoDev\\projects\\mapscratch",
+  "updatedAt": "2026-07-31T03:28:43.152Z",
+  "brand": {
+    "title": "MapScratch",
+    "tagline": "Shared maps, marked together",
+    "description": "MapScratch is a collaborative map annotation tool for outdoor enthusiasts. Drop pins, draw routes, and attach notes and photos to satellite maps, then share a link for friends to add their own marks and comments. Perfect for planning group hikes, fishing trips, or city explorations without the noise of social networks.",
+    "voice": "Quietly utilitarian — speaks like a well-worn field notebook, direct and unpretentious. It lets the map do the talking.",
+    "tone": "calm, precise, editorial, earthy, focused",
+    "sections": [
+      {
+        "name": "Drafting Table",
+        "purpose": "Establish the core loop: see the map, start marking immediately — no onboarding fluff.",
+        "visualBeat": "A dark canvas fills the viewport, with a single pin glowing in the accent color, surrounded by faint route sketches and a side panel listing notes."
+      },
+      {
+        "name": "Markers & Trails",
+        "purpose": "Show how pins, routes, and comments layer into a shared visual conversation.",
+        "visualBeat": "Split view: left shows a clustered map with varied pin shapes and a dotted polyline; right shows a thread of timestamped comments attached to a pin."
+      },
+      {
+        "name": "Field Notes",
+        "purpose": "Demonstrate the note-and-photo attachment workflow integrated with the map surface.",
+        "visualBeat": "A modal-like panel overlays the map, displaying a pin detail — a photo thumbnail, a text note, and a small comment input, all in muted cards."
+      },
+      {
+        "name": "Share Loop",
+        "purpose": "Highlight the frictionless share-by-link mechanism that makes collaboration instant.",
+        "visualBeat": "A simple URL bar with a copy button, and a subtle animation of a link 'snapping' to the map, with avatars of collaborators appearing at the edge."
+      }
+    ],
+    "heroComposition": "First viewport: a bold 'workbench' header with the MapScratch logo (≥72px) on the left, a TextReveal headline 'Shared maps, marked together' center-right, and a single 'Start mapping' CTA below the headline, against a dark map-grid backdrop with faint contour lines.",
+    "logoSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 120 120\"><path d=\"M60 12c-14.359 0-26 11.641-26 26 0 18.5 26 58 26 58s26-39.5 26-58c0-14.359-11.641-26-26-26zm0 38a12 12 0 1 1 0-24 12 12 0 0 1 0 24z\" fill=\"#94a3b8\"/></svg>",
+    "logoMarkDescription": "A single continuous teardrop-shaped pin with an inner circle cut-out, built from two perfect arcs, in a flat slate accent color."
+  }
+}

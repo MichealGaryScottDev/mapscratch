@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 94%;
+    --card: 222 35% 14%;
+    --card-foreground: 210 40% 94%;
+    --primary: 215 16% 65%;
+    --primary-foreground: 222 47% 11%;
+    --secondary: 215 25% 20%;
+    --secondary-foreground: 210 40% 94%;
+    --muted: 215 25% 20%;
+    --muted-foreground: 215 16% 54%;
+    --accent: 215 25% 20%;
+    --accent-foreground: 210 40% 94%;
+    --destructive: 0 45% 63%;
+    --border: 217 33% 18%;
+    --input: 217 33% 18%;
+    --ring: 215 16% 65%;
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-sans antialiased;
+    background:
+      radial-gradient(ellipse 60% 40% at 50% -10%, hsl(215 16% 65% / 0.08), transparent 55%),
+      hsl(222 47% 11%);
+  }
+}
+
+/* Workbench terminal-style scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: hsl(222 35% 14%);
+}
+::-webkit-scrollbar-thumb {
+  background: hsl(217 33% 18%);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(215 16% 40%);
+}
+
+/* Monospace console feel for output areas */
+.font-mono-console {
+  font-family: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Menlo", "Courier New", monospace;
+  font-size: 13px;
+  line-height: 1.6;
+}

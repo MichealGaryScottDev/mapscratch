@@ -1,0 +1,42 @@
+{
+  "title": "MapScratch",
+  "tagline": "Shared maps, marked together",
+  "description": "MapScratch is a collaborative map annotation tool for outdoor enthusiasts. Drop pins, draw routes, and attach notes and photos to satellite maps, then share a link for friends to add their own marks and comments. Perfect for planning group hikes, fishing trips, or city explorations without the noise of social networks.",
+  "voice": "Quietly utilitarian — speaks like a well-worn field notebook, direct and unpretentious. It lets the map do the talking.",
+  "tone": "calm, precise, editorial, earthy, focused",
+  "sections": [
+    {
+      "name": "Drafting Table",
+      "purpose": "Establish the core loop: see the map, start marking immediately — no onboarding fluff.",
+      "visualBeat": "A dark canvas fills the viewport, with a single pin glowing in the accent color, surrounded by faint route sketches and a side panel listing notes."
+    },
+    {
+      "name": "Markers & Trails",
+      "purpose": "Show how pins, routes, and comments layer into a shared visual conversation.",
+      "visualBeat": "Split view: left shows a clustered map with varied pin shapes and a dotted polyline; right shows a thread of timestamped comments attached to a pin."
+    },
+    {
+      "name": "Field Notes",
+      "purpose": "Demonstrate the note-and-photo attachment workflow integrated with the map surface.",
+      "visualBeat": "A modal-like panel overlays the map, displaying a pin detail — a photo thumbnail, a text note, and a small comment input, all in muted cards."
+    },
+    {
+      "name": "Share Loop",
+      "purpose": "Highlight the frictionless share-by-link mechanism that makes collaboration instant.",
+      "visualBeat": "A simple URL bar with a copy button, and a subtle animation of a link 'snapping' to the map, with avatars of collaborators appearing at the edge."
+    }
+  ],
+  "heroComposition": "First viewport: a bold 'workbench' header with the MapScratch logo (≥72px) on the left, a TextReveal headline 'Shared maps, marked together' center-right, and a single 'Start mapping' CTA below the headline, against a dark map-grid backdrop with faint contour lines.",
+  "logoMarkDescription": "A single continuous teardrop-shaped pin with an inner circle cut-out, built from two perfect arcs, in a flat slate accent color.",
+  "visualCraft": "workbench",
+  "palette": {
+    "bg": "#0f172a",
+    "fg": "#e2e8f0",
+    "accent": "#94a3b8",
+    "muted": "#64748b"
+  },
+  "fonts": {
+    "display": "Inter",
+    "body": "Inter"
+  }
+}
