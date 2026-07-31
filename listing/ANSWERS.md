@@ -1,0 +1,28 @@
+# Product listing — MapScratch
+
+## What's your product called?
+MapScratch
+
+## Give it a one line pitch
+Shared maps, marked together
+
+## Where can people try it?
+https://mapscratch.loomship.xyz
+
+## What makes it special?
+Drop pins on a shared Mapbox map and add notes or photo links. Draw routes with freehand lines that everyone in the group sees. Comment on any pin or route to update trail conditions. A unique URL hash opens the same map for friends, who can add their own marks. Everything saves to localStorage with demo data preloaded, so you can try it right away.
+
+## Logo
+`listing/logo.svg`
+
+## Screenshots
+- `listing\screenshots\01-map.png`
+- `listing\screenshots\02-home.png`
+
+## Select 3 categories that fit the product
+- Productivity
+- Platforms
+- Open Source
+
+## Write your first comment
+Hey Orynth, built this for my weekend hiking crew because group texts get messy fast. It's just Mapbox plus localStorage, no backend, so the URL hash carries the state. I'd love to know if the shared link flow feels natural when you open it on your phone.

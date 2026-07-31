@@ -1,6 +1,6 @@
 {
   "slug": "mapscratch",
-  "stage": "built",
+  "stage": "deployed",
   "idea": {
     "slug": "mapscratch",
     "title": "MapScratch",
@@ -40,7 +40,7 @@
   "customBrief": "MapScratch is a web app where outdoor enthusiasts can collaboratively mark up satellite maps with pins, routes, and annotations for secret spots, trail conditions, or planned adventures. Users drop pins on a Mapbox map, attach photos and notes, and share a link for friends to comment and add their own marks. It's perfect for planning group hikes, fishing trips, or city explorations without the noise of social networks.",
   "submitToOrynth": true,
   "siteDir": "C:\\Users\\noahw\\Downloads\\CodingProjects\\OrynthAutoDev\\projects\\mapscratch",
-  "updatedAt": "2026-07-31T03:28:43.152Z",
+  "updatedAt": "2026-07-31T03:31:08.732Z",
   "brand": {
     "title": "MapScratch",
     "tagline": "Shared maps, marked together",
